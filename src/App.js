@@ -26,30 +26,27 @@ function App() {
   }
 
   const toggleMode = ()=>{
-    if(mode === 'light'){
-      setMode('dark');
-      document.body.style.backgroundColor = '#042743';
-      showAlert("Dark mode has been enabled", "success");
-    }
-    else{
+    if(mode === 'dark'){
       setMode('light');
       document.body.style.backgroundColor = 'white';
-      showAlert("Light mode has been enabled", "success");
+    }
+    else{
+      setMode('dark');
+      document.body.style.backgroundColor = '#042743';
     }
   }
   return (
     <>
-{/* <BrowserRouter> */}
+<BrowserRouter>
         <Navbar title="TextUtils"  aboutText="About"mode={mode}  toggleMode={toggleMode}/>
         <Alert alert={alert} />
         <div className="container my-1" mode={mode}>
-          {/* <Routes> */}
-            {/* <Route exact path="/about" element={<About />}></Route> */}
-            {/* <Route exact path="/" element={}/>}></Route> */}
-            <TextForm showAlert={showAlert} heading="Enter Text to analyze "mode={mode}/>
-          {/* </Routes> */}
+          <Routes>
+            <Route exact path="/about" element={ <About mode={mode} />}></Route>
+            <Route exact path="/" element={<TextForm showAlert={showAlert} heading="Try TextUtils - word counter, character counter, remove extra spaces" mode={mode}/>}></Route>
+         </Routes>
         </div>
-      {/* </BrowserRouter> */}
+      </BrowserRouter>
     </>
   );
 }

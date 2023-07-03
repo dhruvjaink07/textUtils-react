@@ -1,70 +1,48 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# TextUtils- word counter, character counter, remove extra spaces
 
-## Available Scripts
+## Documentation
 
-In the project directory, you can run:
+This project is made using reactjs , it's a website that manipulate your text by converting them to UpperCase, LowerCase, also remove additional spaces from sentences.
+You can copy your text after manipulating it.
 
-### `npm start`
+Allows user to calculate the amount of time required to read text (it can be paragraphs, essays or what not).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Also tells us the exact number of words and characters the text contains.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run TextUtils on development server
+```bash
+  npm run start
+```
+This will run the scripts on localhost
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## FAQ
 
-### `npm run eject`
+### 1. What is TextUtils?
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+TextUtils is a web-based application that provides a range of tools to assist you with text processing and manipulation. It offers features such as text formatting, word count, character count, and text case conversion to simplify your writing and editing tasks.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Do I need to create an account to use TextUtils?
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+No, creating an account is not required to use TextUtils. You can visit our website and start using the tools instantly without any login or registration process.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3. How can TextUtils help with word count and character count?
 
-## Learn More
+TextUtils allows you to quickly determine the number of words and characters in your text. Simply paste or type your text into the designated area, and TextUtils will display the word count and character count instantly.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 4. Can I use TextUtils on mobile devices?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Yes, TextUtils is a web-based application that is accessible on various devices, including desktops, laptops, tablets, and smartphones. You can conveniently use TextUtils on your preferred device with internet access.
+ 
+### 5. Is my text stored or saved by TextUtils?
 
-### Code Splitting
+No, TextUtils does not store or save any of the text you input into the application. Your text is processed locally within your browser, ensuring your privacy and data security.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
